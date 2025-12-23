@@ -1,0 +1,12 @@
+train: train/images
+val: train/images
+
+nc: 1
+names: ['license-plates']
+
+roboflow:
+  workspace: plate-blur
+  project: plate_blur
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/plate-blur/plate_blur/2
