@@ -4,7 +4,7 @@ __pycache__/
 
 # YOLO / training outputs
 runs/
-datasets/
+dataset/
 *.pt
 
 # Images (input/output)
