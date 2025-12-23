@@ -1,20 +1,26 @@
-# License Plate Blur (YOLOv8)
+# Automatic License Plate Blurring (YOLOv8)
 
-A Python tool that automatically detects and blurs license plates in images using a custom-trained YOLOv8 model.
+This project detects **license plates** in images and applies a strong blur to them.
+It is designed for privacy-preserving image processing and works with JPG, PNG, and WebP images.
 
-## Features
-- Custom-trained license plate detector
-- Batch processing of images
-- Strong Gaussian blur for privacy
-- Supports JPG, PNG, and WebP
-- CPU-friendly (Apple Silicon supported)
+The model is trained using **YOLOv8** and applied with **OpenCV**.
 
-## Requirements
-- Python 3.10+
-- ultralytics
-- opencv-python
+---
 
-## Install
+## 🚀 Features
+- Detects full license plates (not just numbers)
+- Blurs only the detected plate region
+- Supports batch processing of images
+- Works on macOS (Apple Silicon), Linux, and Windows
+
+---
+
+## 📦 Requirements
+
+- Python 3.9+
+- Ultralytics YOLO
+- OpenCV
+
+Install dependencies:
 ```bash
-pip install ultralytics opencv-python
-
+pip3 install ultralytics opencv-python
